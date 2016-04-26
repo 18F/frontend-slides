@@ -1,0 +1,17 @@
+# Site settings
+title: 18F Front End Practices
+email: christine.cheung@gsa.gov
+
+description: > # this means to ignore newlines until "baseurl:"
+  Slide decks for 18F Front End Guild!
+
+baseurl: "/slides"
+url: "https://pages.18f.gov/frontend-slides/"
+
+# Build settings
+markdown: redcarpet
+
+collections:
+  slides:
+    output: true
+    permalink: "/:path/"
